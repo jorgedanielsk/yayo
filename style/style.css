@@ -1,0 +1,277 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #01423d;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+/* COSAS ELEMENTALES PARA LOS CONTENEDORES ORDENADOS */
+header {
+    margin: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+/* INICIA CON EL PRIMER CONTENEDOR DE LA IZQUIERDA */
+
+iframe{
+    position: relative;
+    right: 30px;
+    width: 112%;
+    height: 250px;
+}
+
+.logo {
+    background-color: #008055;
+    border-radius: 1rem;
+    width: 30%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.list-items2 {
+    color: #a6ff00;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: auto;
+    padding: 0;
+    margin: 25px;
+    font-size: 15px;
+    color: #53a700;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.list-items2 img {
+    width: 35px;
+    height: 35px;
+}
+
+.list-items2 i {
+    font-size: 25px;
+}
+
+.list-items2 li {
+    padding: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.logo-text {
+    margin-left: 15px;
+}
+
+/* INICIA CON EL CONTENEDOR DE LA DERECHA (CUERPO DE LA PAGINA) */
+main {
+    border-radius: 1rem 1rem 0rem 0rem;
+    padding: 15px;
+    width: 100%;
+    height: 60px;
+    background-color: #00fd87;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.subtemas {
+    font-size: 20px;
+    color: rgb(0, 122, 112);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/* LINKS */
+.links {
+    margin: 15px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: flex-end;
+    flex-grow: 1;
+}
+
+.links label {
+    font-size: 18px;
+    color: black;
+}
+
+.links a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.links a:hover {
+    filter: drop-shadow(0 0 10px rgb(0, 0, 0));
+    color: #575757;
+}
+
+/* Contenedor para los subtemas */
+.container1-1 {
+    position: relative;
+    width: 99%;
+    top: 10px;
+    padding: 20px;
+    background-color: #08bb70;
+    border-radius: 0rem 0rem 1rem 1rem;
+    font-size: 14px;
+    color: #333;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.container1-1 label{
+    font-size: 17px;
+}
+
+.container1-1 img{
+    position: relative;
+    pointer-events: none;
+    width: 20%;
+}
+
+
+/* 
+Cointainer 1-2 */
+
+.container1-2{
+    position: relative;
+    width: 99%;
+    top: 10px;
+    padding: 20px;
+    background-color: #08bb70;
+    border-radius: 0rem 0rem 1rem 1rem;
+    font-size: 14px;
+    color: #333;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.container1-2 label{
+    font-size: 17px;
+}
+
+.container1-2 img{
+    position: relative;
+    pointer-events: none;
+    width: 20%;
+}
+
+
+/* 
+Container1-3 */
+
+.container1-3{
+    position: relative;
+    width: 99%;
+    top: 10px;
+    padding: 20px;
+    background-color: #08bb70;
+    border-radius: 0rem 0rem 1rem 1rem;
+    font-size: 14px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #333;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.container1-3 h1{
+    color: rgb(255, 255, 255);
+}
+
+.container1-3 b{
+    color: red;
+}
+
+.container1-3 label{
+    font-size: 17px;
+    color: black;
+}
+
+.container1-3 img{
+    position: relative;
+    pointer-events: none;
+    width: 20%;
+}
+
+/*
+ Container1-4 */
+
+.container1-4{
+    position: relative;
+    width: 99%;
+    top: 10px;
+    padding: 20px;
+    background-color: #08bb70;
+    border-radius: 0rem 0rem 1rem 1rem;
+    font-size: 14px;
+    color: #333;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.container1-4 label{
+    font-size: 17px;
+}
+
+.container1-4 img{
+    position: relative;
+    pointer-events: none;
+    width: 20%;
+}
+/* 
+Container1-5 */
+
+.container1-5{
+    position: relative;
+    width: 99%;
+    top: 10px;
+    padding: 20px;
+    background-color: #08bb70;
+    border-radius: 0rem 0rem 1rem 1rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 14px;
+    color: #000000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.container1-5 label{
+    font-size: 17px;
+}
+
+.container1-5 img{
+    position: relative;
+    pointer-events: none;
+    width: 20%;
+}
+
+
+/* Tabla */
+table {
+    margin-top: 20px;
+    width: 100%;
+    text-align: left;
+    color: #ffffff;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+table th {
+    background-color: #01423d;
+}
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+    color: #01423d;
+}
